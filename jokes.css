@@ -1,0 +1,60 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90vw;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 15px;
+    height: 190px;
+    padding-bottom: 30px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 50px;
+}
+.input label{
+    font-size: 0.8rem;
+}
+.input input[type = "number"]{
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+button{
+    height: 30px;
+    width: 120px;
+    border : 1px solid #ccc;
+    background-color: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.input input[type = "number"]:focus{
+    border: 1px solid rgb(117, 196, 223);
+}
+h2{
+    margin-bottom: 0;
+}
+.jockes{
+    margin-top: 20px;
+    width: 90vw;
+    margin: auto;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    padding-bottom: 20px;
+}
+.jockes li{
+    list-style-type: decimal;
+}
